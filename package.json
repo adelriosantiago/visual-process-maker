@@ -1,0 +1,31 @@
+{
+  "name": "visual-process-maker",
+  "version": "1.0.0",
+  "description": "A visual process maker",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "forever --verbose --uid \"visual-process-maker\" -w ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adelriosantiago/visual-process-maker.git"
+  },
+  "keywords": [
+    "process",
+    "maker",
+    "flow",
+    "flowchart",
+    "visual"
+  ],
+  "author": "Alejandro del Río Santiago <adelriosantiago@gmail.com> (http://www.adelriosantiago.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adelriosantiago/visual-process-maker/issues"
+  },
+  "homepage": "https://github.com/adelriosantiago/visual-process-maker#readme"
+}
