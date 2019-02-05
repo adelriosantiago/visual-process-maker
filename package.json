@@ -1,32 +1,23 @@
 {
-  "name": "visual-process-maker",
+  "name": "myProyecto",
   "version": "1.0.0",
-  "description": "A visual process maker",
+  "description": "",
   "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mysql": "^2.16.0"
   },
-  "scripts": {
-    "start": "forever --verbose --uid \"visual-process-maker\" -w ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adelriosantiago/visual-process-maker.git"
-  },
-  "keywords": [
-    "process",
-    "maker",
-    "flow",
-    "flowchart",
-    "visual"
-  ],
-  "author": "Alejandro del Río Santiago <adelriosantiago@gmail.com> (http://www.adelriosantiago.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/adelriosantiago/visual-process-maker/issues"
-  },
-  "homepage": "https://github.com/adelriosantiago/visual-process-maker#readme"
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
 }
